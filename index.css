@@ -28,19 +28,46 @@ h1{
     margin: 50px;
 }
 
-p{
+.main-text{
     text-align: center;
     font-size: 4vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a{
+.main-a{
     color: white;
     text-decoration: none;
 }
 
-a:hover{
+.main-a:hover{
     border-bottom: 1px solid white;
+}
+
+img {
+    width: 5vw;
+    height: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: rgb(31,31,31);
+    border-radius: 3px;
+}
+
+.card > *{
+    padding: 5px;
+}
+
+.card-text{
+    color: rgb(31,31,31);
+    font-weight: 900;
+}
+
+.card-a{
+    color: rgb(31,31,31);
 }
 
 footer{
@@ -53,9 +80,9 @@ footer a{
 }
 
 .upurple{
-    border-bottom: 5px solid purple;
+    border-bottom: 10px solid purple;
 }
 
 .ugreen{
-    border-bottom: 5px solid green;
+    border-bottom: 10px solid green;
 }
